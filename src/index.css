@@ -1,10 +1,49 @@
 body {
-  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: rgb(252, 239, 222);
+
+}
+
+header h1 {
+  padding: 5px;
+}
+
+.links {
+  background-color: rgb(251, 245, 237);
+}
+
+.link {
+  margin: 10px 15px 10px 15px;
+}
+
+#root {
+  min-height: 100vh;
+  margin: auto;
+  background-color: rgb(253, 250, 246);
+}
+
+.active {
+  color: red;
+}
+
+.card {
+  width: 100%;
+  background-color: rgb(247, 242, 235);
+}
+
+@media screen and (min-width: 1000px) {
+  #root {
+
+    width: 1000px;
+  }
 }
 
 code {
